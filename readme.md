@@ -35,4 +35,6 @@ The gradient descent algorithm is reproduced below:
 
 The input given is a step size. We also define a stopping criterion. In this implementation, we just use a maximum iteration value as the stopping criterion. Once the stopping criterion is met, the value that we obtain is the optimized value of the objective function.
 
-This code runs gradient descent to optimize the value of the coefficients for a linear regression based model. All the code is contained in the gradient_descent.py file. 
+## How to run code
+
+This code runs gradient descent to optimize the value of the coefficients for a linear regression based model. All the code is contained in the gradient_descent.py file. You can run the code by directly calling it from a terminal screen. This code depends on Pandas and Numpy as well, which can be installed using pip.
