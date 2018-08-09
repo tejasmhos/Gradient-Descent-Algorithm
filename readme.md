@@ -15,7 +15,7 @@ The gradient descent algorithm can be applied to a given function, provided that
 
 A function is differentiable if a derivative exists at each point in its domain. 
 
-![](/Users/thosanga/Desktop/git_stuff/Gradient-Descent-Algorithm/images/Polynomialdeg3.png)
+![](/images/Polynomialdeg3.png)
 
 The graph above shows a function that is differentiable. An example of a non-differentiable function is the absolute value function. It is differentiable at all points, except for the point at which the value of the variable is 0.
 
@@ -31,7 +31,7 @@ The gradient descent algorithm can be used only if these two conditions are met.
 
 The gradient descent algorithm is reproduced below:
 
-![](/Users/thosanga/Desktop/git_stuff/Gradient-Descent-Algorithm/images/algorithm.png)
+![](/images/algorithm.png)
 
 The input given is a step size. We also define a stopping criterion. In this implementation, we just use a maximum iteration value as the stopping criterion. Once the stopping criterion is met, the value that we obtain is the optimized value of the objective function.
 
