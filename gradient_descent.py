@@ -81,10 +81,13 @@ def graddescent(t,max_iter,X,y):
         iter += 1
     return np.array(beta), obj_vals
 
+def main():
+    X_train, X_test, y_train, y_test = data_generation()
+    betas, objs = graddescent(0.1,100, X_train, y_train)
+    plt.plot(objs)
+    plt.title("Objective function value by iteration")
+    plt.xlabel("iterations (t)")
+    plt.ylabel(r'$F(\beta)$')
 
-X_train, X_test, y_train, y_test = data_generation()
-betas, objs = graddescent(0.1,100, X_train, y_train)
-plt.plot(objs)
-plt.title("Objective function value by iteration")
-plt.xlabel("iterations (t)")
-plt.ylabel(r'$F(\beta)$')
+if __name__ == '__main__':
+    main()    
